@@ -1,0 +1,83 @@
+[
+    {
+      "book": "Biology 101",
+      "question_id": 1,
+      "question": "What is the function of the mitochondria in a cell?",
+      "answer": "The mitochondria are the powerhouse of the cell, producing ATP through cellular respiration.",
+      "context": "Mitochondria are double-membraned organelles found in most eukaryotic cells. They are involved in energy production and are often referred to as the powerhouse of the cell.",
+      "instructions": "Guide the student to understand the role of mitochondria by asking about cellular respiration and energy production in cells."
+    },
+    {
+      "book": "Biology 101",
+      "question_id": 2,
+      "question": "Explain the process of photosynthesis.",
+      "answer": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, water, and carbon dioxide into glucose and oxygen.",
+      "context": "Photosynthesis occurs in the chloroplasts of plant cells. The process consists of two main stages: the light-dependent reactions and the Calvin cycle.",
+      "instructions": "Ask the student to describe the two main stages of photosynthesis and the role of chloroplasts."
+    },
+    {
+      "book": "Biology 101",
+      "question_id": 3,
+      "question": "What are the differences between mitosis and meiosis?",
+      "answer": "Mitosis results in two genetically identical daughter cells, while meiosis produces four genetically diverse gametes.",
+      "context": "Mitosis is a type of cell division involved in growth and repair. Meiosis is a type of cell division that reduces the chromosome number by half, producing gametes for sexual reproduction.",
+      "instructions": "Guide the student to compare and contrast the phases of mitosis and meiosis."
+    },
+    {
+      "book": "Biology 101",
+      "question_id": 4,
+      "question": "Define the term 'ecosystem'.",
+      "answer": "An ecosystem is a community of living organisms interacting with their physical environment.",
+      "context": "Ecosystems can vary in size and can be as small as a pond or as large as a forest. They include both biotic (living) and abiotic (non-living) components.",
+      "instructions": "Ask the student to give examples of different ecosystems and describe the interactions within them."
+    },
+    {
+      "book": "Biology 101",
+      "question_id": 5,
+      "question": "What is the role of enzymes in biological reactions?",
+      "answer": "Enzymes act as catalysts in biological reactions, speeding up the rate of chemical reactions without being consumed.",
+      "context": "Enzymes are proteins that lower the activation energy required for reactions to occur, making processes like digestion and metabolism more efficient.",
+      "instructions": "Have the student explain how enzymes lower activation energy and provide examples of enzyme-catalyzed reactions."
+    },
+    {
+      "book": "Biology 101",
+      "question_id": 6,
+      "question": "Describe the structure of DNA.",
+      "answer": "DNA is a double helix composed of two strands of nucleotides, with a backbone of sugar and phosphate groups and nitrogenous bases paired in the center.",
+      "context": "The nitrogenous bases in DNA are adenine, thymine, cytosine, and guanine. Adenine pairs with thymine, and cytosine pairs with guanine.",
+      "instructions": "Guide the student to draw the structure of DNA and label its components."
+    },
+    {
+      "book": "Biology 101",
+      "question_id": 7,
+      "question": "What is natural selection?",
+      "answer": "Natural selection is the process by which organisms better adapted to their environment tend to survive and reproduce, passing on advantageous traits.",
+      "context": "Natural selection is a key mechanism of evolution. It was proposed by Charles Darwin and involves variation, inheritance, and differential survival and reproduction.",
+      "instructions": "Ask the student to provide examples of natural selection in nature and explain the concept of survival of the fittest."
+    },
+    {
+      "book": "Biology 101",
+      "question_id": 8,
+      "question": "What is the function of the cell membrane?",
+      "answer": "The cell membrane regulates the movement of substances into and out of the cell, providing a selective barrier.",
+      "context": "The cell membrane is composed of a phospholipid bilayer with embedded proteins. It maintains homeostasis by controlling the internal environment of the cell.",
+      "instructions": "Have the student describe the structure of the cell membrane and its role in transport mechanisms like diffusion and active transport."
+    },
+    {
+      "book": "Biology 101",
+      "question_id": 9,
+      "question": "Explain the water cycle.",
+      "answer": "The water cycle involves the continuous movement of water on, above, and below the surface of the Earth, including processes like evaporation, condensation, precipitation, and runoff.",
+      "context": "The water cycle is crucial for maintaining life on Earth. It distributes water and heat and supports ecosystems.",
+      "instructions": "Guide the student to illustrate the water cycle and explain each stage in detail."
+    },
+    {
+      "book": "Biology 101",
+      "question_id": 10,
+      "question": "What are the levels of biological organization?",
+      "answer": "The levels of biological organization, from simplest to most complex, are: molecule, cell, tissue, organ, organ system, organism, population, community, ecosystem, and biosphere.",
+      "context": "Biological organization is a hierarchy of complex biological structures and systems. Each level represents an increase in complexity and function.",
+      "instructions": "Ask the student to define each level and provide examples for each."
+    }
+  ]
+  

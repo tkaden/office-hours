@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Hours</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .question-box, .response-box {
+            margin-bottom: 20px;
+        }
+        .question-box {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Office Hours</h1>
+    <div class="question-box" id="question-box">Loading...</div>
+    <div class="response-box" id="response-box"></div>
+    <input type="text" id="student-input" placeholder="Type your response here">
+    <button onclick="submitQuery()">Submit</button>
+    <button onclick="nextQuestion()">Next Question</button>
+
+    <script>
+        let currentQuestionIndex = 0;
+        let questions = [];
+
+        async function loadQuestions() {
+            const response = await fetch('/questions');
+            console.log(response);
+            questions = await response.json();
+            console.log(questions);
+            displayQuestion();
+        }
+
+        function displayQuestion() {
+            if (currentQuestionIndex < questions.length) {
+                document.getElementById('question-box').innerText = questions[currentQuestionIndex].question;
+                document.getElementById('response-box').innerText = '';
+                document.getElementById('student-input').value = '';
+            } else {
+                document.getElementById('question-box').innerText = 'You have completed all the questions.';
+                document.getElementById('response-box').innerText = '';
+                document.getElementById('student-input').disabled = true;
+            }
+        }
+
+        async function submitQuery() {
+            const studentInput = document.getElementById('student-input').value;
+            const response = await fetch('/response', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ query: studentInput })
+            });
+            const data = await response.json();
+            document.getElementById('response-box').innerText = data.response;
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            displayQuestion();
+        }
+
+        loadQuestions();
+    </script>
+</body>
+</html>
