@@ -1,8 +1,13 @@
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from transformers import LlamaForCausalLM, LlamaTokenizer
+from dotenv import load_dotenv
+import os
 
-# Load GPT model and tokenizer
-tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
-model = GPT2LMHeadModel.from_pretrained('gpt2')
+load_dotenv()
+llama_path = '/Users/tkaden/git/Llama3/Meta-Llama-3-8B'
+
+# Load LLaMA model and tokenizer
+tokenizer = LlamaTokenizer.from_pretrained(llama_path)
+model = LlamaForCausalLM.from_pretrained(llama_path)
 
 def generate_response(retrieved_question, student_query):
     # Construct the input prompt for the GPT model

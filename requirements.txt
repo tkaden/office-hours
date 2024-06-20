@@ -1,51 +1,30 @@
-blinker @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/blinker_1699238202041/work
-boto3 @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_0534t0nl8y/croot/boto3_1714473548130/work
-botocore @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_48xbswz5t5/croot/botocore_1714467498295/work
-Brotli @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_27zk0eqdh0/croot/brotli-split_1714483157007/work
-certifi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_22gybxx1lv/croot/certifi_1717618066699/work/certifi
-cffi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_7a9c7wyorr/croot/cffi_1714483157752/work
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
-click @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/click_1699237822453/work
-cryptography @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_31zgxm62w8/croot/cryptography_1714660690857/work
-dnspython @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_ac52k4vqs2/croot/dnspython_1703096969321/work
 filelock==3.15.1
-Flask @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b6zka5i2cn/croot/flask_1716545886197/work
 fsspec==2024.6.0
 huggingface-hub==0.23.4
-idna @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a12xpo84t2/croot/idna_1714398852854/work
-itsdangerous @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_00jdi1gu23/croot/itsdangerous_1716533346702/work
-Jinja2 @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_44yzu12j7f/croot/jinja2_1716993410427/work
-jmespath @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/jmespath_1701804490553/work
-joblib @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_8ff7uji0v2/croot/joblib_1718217225309/work
 MarkupSafe==2.1.5
 mpmath==1.3.0
 networkx==3.3
-numpy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a51i_mbs7m/croot/numpy_and_numpy_base_1708638620867/work/dist/numpy-1.26.4-cp312-cp312-macosx_11_0_arm64.whl#sha256=37afb6b734a197702d848df93bd67c10b52f6467d56e518950d84b6b1c949d27
 packaging==24.1
 pillow==10.3.0
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-pymongo @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_87eo9yxw0e/croot/pymongo_1714079723636/work
-PySocks @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/pysocks_1699237568675/work
-python-dateutil @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_66ud1l42_h/croot/python-dateutil_1716495741162/work
 PyYAML==6.0.1
-regex @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/regex_1699243096830/work
-requests @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b143dxenr7/croot/requests_1716902835977/work
-s3transfer @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a49rnvanpe/croot/s3transfer_1714464422444/work
-sacremoses @ file:///tmp/build/80754af9/sacremoses_1633107328213/work
 safetensors==0.4.3
 scikit-learn==1.5.0
 scipy==1.13.1
 sentence-transformers==3.0.1
 sentencepiece==0.2.0
 setuptools==69.5.1
-six @ file:///tmp/build/80754af9/six_1644875935023/work
 sympy==1.12.1
 threadpoolctl==3.5.0
 tokenizers==0.19.1
 torch==2.3.1
-tqdm @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_f76_dxtcsh/croot/tqdm_1716395948224/work
 transformers==4.41.2
 typing_extensions==4.12.2
-urllib3 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_22oz53beet/croot/urllib3_1715635830593/work
-Werkzeug @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_5bnbxlhunm/croot/werkzeug_1716533322814/work
 wheel==0.43.0
+jax>=0.2.8
+jaxlib>=0.1.59
+flax>=0.3.5
+optax>=0.0.8
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.13.1
+-f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.12.0+cpu
